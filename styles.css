@@ -1,0 +1,40 @@
+body {
+    font-family: monospace;
+    background: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .quiz-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  button {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+  }
+  

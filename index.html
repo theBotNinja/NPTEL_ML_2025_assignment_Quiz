@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    .question { margin-bottom: 25px; padding: 15px; border: 1px solid #ccc; border-radius: 8px; }
+    .correct { background-color: #e6ffed; }
+    .incorrect { background-color: #ffe6e6; }
+    img { max-width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+  <label for="WEK">Select Week : </label>
+  <input list="WEK" name="browser" onclick="setvalue()" id="WEEKS">
+  <datalist id="WEK">
+  <option value="WEEK1">
+  <option value="WEEK2">
+  <option value="WEEK3">
+  <option value="WEEK4">
+  <option value="WEEK5">
+  <option value="WEEK6">
+  <option value="WEEK7">
+  <option value="WEEK8">
+  <option value="WEEK9">
+  <option value="WEEK10">
+  <option value="WEEK11">
+  <option value="WEEK12">
+  </datalist>
+  <button onclick="changeWEEK()">Start</button>
+  <h1>Quiz</h1>
+  <div id="quiz"></div>
+  <button id="submit">Submit</button>
+  <div id="results"></div>
+  <script src="script.js"></script>
+</body>
+</html>
